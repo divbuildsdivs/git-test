@@ -3,32 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="styles/style.css">
-  <title>Frontend Mentor | Blog preview card</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/qrcodestyle.css">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+ 
 </head>
 <body>
   <main>
-    <div class="card-container">
-      <div class="blog-image">
-        <img src="/assets/images/illustration-article.svg" alt="blog-image">
+    <div class="component-container">
+      <div class="qrcode">
+        <img class="qrcode-image" src="images/image-qr-code.png" alt="qrcode-image">
       </div>
-      <div class="card-content">
-        <div class="category-label">
-          Learning
+      <div class="component-text">
+        <h1 class="text-title">
+          Improve your front-end skills by building projects
+        </h1>
+        <div class="text-subtitle">
+           Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
         </div>
-        <p class="published-date">Published 21 Dec 2023</p>
-        <h1 class="title"> HTML & CSS foundations</h1>
-        <p class="description"> These languages are the backbone of every website, defining structure, content, and presentation. </p>
-      </div>
-      <div class="author-profile">
-        
-          <img src="assets/images/image-avatar.webp" alt="profile-picture">
-        
-          <p>Greg Hooper</p>
       </div>
     </div>
   </main>
